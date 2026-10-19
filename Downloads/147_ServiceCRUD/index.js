@@ -13,6 +13,7 @@ app.use(
 );
 
 // PostgreSQL Pool Connection
+// PostgreSQL Pool Config
 const pool = new Pool({
   user: 'postgres',
   host: 'localhost',
